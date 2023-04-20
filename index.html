@@ -5,104 +5,212 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#tech" title="Ir para a seção de tecnologia">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#entertainment" title="Ir para a seção de entretenimento">Entretenimento</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Noite do Superbowl</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>        
     </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Dólar em alta de 0.50%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Euro em queda de 0.40%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Alta no preço do barril do petróleo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="tech">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/tech01.jpeg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Google anuncia 120 mil bolsas gratuitas de cursos em tecnologia</h3>
+                    <p>
+                        O Google anunciou, nesta quinta-feira (20), a doação de 120 mil bolsas de estudo para capacitação profissional na área de tecnologia. Os cursos são gratuitos e voltados para jovens que estão no Ensino Médio, universitários, quem está procurando o primeiro emprego ou recolocação no mercado.
+                    </p>
+                    <a href="https://www.msn.com/pt-br/noticias/other/google-anuncia-120-mil-bolsas-gratuitas-de-cursos-em-tecnologia/ar-AA1a6RiV" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tech02.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Fotógrafo recusa prêmio por foto gerada com inteligência artificial</h3>
+                    <p>
+                        A intenção do artista era questionar o que é considerado fotografia e, ainda, se os concursos da linguagem estariam preparados para lidar com IA. “Nós, do mundo da fotografia, precisamos de uma discussão sobre o que queremos considerar fotografia e o que não queremos", escreveu em manifesto no próprio site.
+                    </p>
+                    <a href="https://www.opovo.com.br/vidaearte/2023/04/19/fotografo-recusa-premio-por-foto-gerada-com-inteligencia-artificial.html" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tech03.jpeg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Adobe Firefly: rival do Dall-E e Midjourney agora consegue editar vídeos com inteligência artificial</h3>
+                    <p>
+                        Dentre as capacidades descritas pela Adobe para editar vídeos com o Firefly estão selecionar partes específicas de um vídeo como o rosto de uma pessoa, objetos e áreas como o céu para realizar edições nelas com seleção inteligente e parâmetros inseridos em uma caixa de diálogo com linguagem natural por meio de inteligência artificial.
+                    </p>
+                    <a href="https://www.tudocelular.com/software/noticias/n205134/adobe-firefly-rival-dall-midjourney-editar-videos.html" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="entertainment">
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/lazer01.jpeg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Marvel's Spider Man 2: Ator revela que trabalho de captura de movimentos já foi concuído</h3>
+                    <p>
+                        Tudo indica que o jogo de ação-aventura que terá Peter Parker e Miles Morales dividindo o protagonismo está na fase final de desenvolvimento, pelo menos no que diz respeito aos trabalhos de voz de personagens e captura de movimentos.
+                    </p>
+                    <a href="https://www.msn.com/pt-br/entretenimento/jogos/marvels-spider-man-2-ator-revela-que-trabalho-de-captura-de-movimentos-j%C3%A1-foi-concu%C3%ADdo/ar-AA1a6t8a" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/lazer02.jpeg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Louis Leterrier completará a franquia Velozes e Furiosos como diretor de Velozes e Furiosos 11</h3>
+                    <p>
+                        Continuando de onde ele parou como diretor de Fast X (um papel que ele aceitou depois que Justin Lin teve que se afastar), Louis Leterrier também estará dirigindo o filme seguinte e final da série principal, como relata a Variety.
+                    </p>
+                    <a href="https://www.msn.com/pt-br/entretenimento/jogos/louis-leterrier-completar%C3%A1-a-franquia-velozes-e-furiosos-como-diretor-de-velozes-e-furiosos-11/ar-AA1a6CI4" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/lazer03.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Primeira série de Arnold Schwarzenegger ganha trailer da Netflix</h3>
+                    <p>
+                        Misturando ação com comédia, a atração vai contar a história de Luke (Schwarzenegger) e Emma Brunner (Monica Barbaro, “Top Gun: Maverick”), pai e filha, que descobrem que passaram a vida inteira sem saber que trabalhavam como espiões na CIA. Eles só percebem na última missão antes de Luke se aposentar, quando ele precisa resgatar a filha.
+                    </p>
+                    <a href="https://www.msn.com/pt-br/cinema/noticias/primeira-s%C3%A9rie-de-arnold-schwarzenegger-ganha-trailer-da-netflix/ar-AA1a5lWD
+                    " title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/lazer04.jpeg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Xbox Game Pass: jogador ganha assinatura vitalícia, mas recusa</h3>
+                    <p>
+                        O grande felizardo do momento, conhecido no Reddit como Elvite, explicou em um post que recusou essa chance tão sonhada por muitos devido à renda tributável adicional que traria. Se ele tivesse aceitado, teria US$ 7.300 (cerca de R$ 36 mil) adicionados aos seus impostos de 2023, o que os exigiria pagar cerca de US$ 1.752 (cerca de R$ 8668) a mais em sua conta de imposto federal, além do estadual.
+                    </p>
+                    <a href="https://www.tecmundo.com.br/voxel/262987-xbox-game-pass-jogador-ganha-assinatura-vitalicia-recusa.htm" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>        
     </section>
 </body>
 </html>
